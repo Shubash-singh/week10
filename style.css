@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskList li.completed {
+    text-decoration: line-through;
+    background-color: #d3ffd3;
+}
+
+button {
+    padding: 5px 15px;
+    margin-left: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
